@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base: "/Love-and-lactation/",
+  base: "/Love_and_lactation/",
 });

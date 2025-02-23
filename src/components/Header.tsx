@@ -69,7 +69,7 @@ const Header: React.FC = () => {
         <div className='flex items-center justify-between'>
           <a href='#' className='flex items-center space-x-2'>
             <img
-              src={isScrolled ? '/images/love_bold.png' : '/images/ll-black-3.png'}
+              src={isScrolled ? './images/love_bold.png' : './images/ll-black-3.png'}
               alt='Love & Lactation'
               className='h-10 w-auto'
             />

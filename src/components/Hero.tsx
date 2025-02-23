@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
     <section className="relative min-h-screen flex items-center">
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-r from-purple-900/90 to-pink-900/90" />
-        <img src="/images/ll-white-icon-small.jpg?height=1080&width=1920" alt="Background" className="w-full h-full object-cover" />
+        <img src="./images/ll-white-icon-small.jpg?height=1080&width=1920" alt="Background" className="w-full h-full object-cover" />
       </div>
 
       <div className="container mx-auto px-6 relative z-10">
@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
             className="hidden md:block"
           >
             <img
-              src="/images/ll-black-3.png"
+              src="./images/ll-black-3.png"
               alt="Love and Lactation Logo"
               className="w-full max-w-md mx-auto"
             />
