@@ -4,17 +4,17 @@ import { motion } from "framer-motion"
 const sponsors = [
   {
     name: "NYSC Secretariat",
-    logo: "/images/1.png",
+    logo: "./images/1.png",
     description: "Supporting maternal health initiatives",
   },
   {
     name: "Digital Health Initiative",
-    logo: "/images/2.png",
+    logo: "./images/2.png",
     description: "Technology partner",
   },
   {
     name: "Bingham University Teaching Hospital",
-    logo: "/images/3.png",
+    logo: "./images/3.png",
     description: "Expert medical care partner",
   },
   // {
@@ -66,7 +66,7 @@ const Sponsors: React.FC = () => {
           ))}
         </div>
 
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.4 }}
@@ -77,7 +77,7 @@ const Sponsors: React.FC = () => {
           <button className="bg-purple-600 text-white px-6 py-2 rounded-md hover:bg-purple-700 transition duration-300">
             Partner With Us
           </button>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   )

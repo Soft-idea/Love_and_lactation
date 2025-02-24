@@ -21,7 +21,7 @@ const Chat: React.FC = () => {
   return (
     <section id="chat" className="py-20 bg-purple-100">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">AI Chat Support</h2>
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">AI Doctor</h2>
         <motion.div 
           className="max-w-2xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden"
           initial={{ opacity: 0, y: 20 }}

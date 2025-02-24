@@ -10,18 +10,18 @@ const features = [
   },
   {
     icon: <FaComments />,
-    title: "AI Chat Support",
+    title: "AI Doctor",
     description: "Get instant answers to your breastfeeding-related questions.",
   },
   {
     icon: <FaHeartbeat />,
-    title: "Health Monitoring",
-    description: "Monitor your health and get timely reminders for check-ups.",
+    title: "Health Management",
+    description: "Manage your health and get our hotline and location for scheduled visitation.",
   },
   {
     icon: <FaBook />,
-    title: "Breastfeeding Guide",
-    description: "Access a comprehensive guide for breastfeeding your baby.",
+    title: "Breastfeeding Tips",
+    description: "Access a daily comprehensive tips for breastfeeding your baby.",
   },
 ]
 
