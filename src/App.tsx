@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
-import Tracker from './components/Tracker';
+// import Tracker from './components/Tracker';
 import BabyAdvisor from './components/BabyAdvisor';
 import DailyTips from './components/DailyTips';
 import FAQ from './components/FAQ';
@@ -98,7 +98,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
-      <Tracker />
+      {/* <Tracker /> */}
       <BabyAdvisor />
       <DailyTips />
       <FAQ />
