@@ -1,5 +1,5 @@
 import type React from "react"
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa"
+// import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa"
 
 const Footer: React.FC = () => {
   return (
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
             <p className="text-sm">Email: info@bhuth.org.ng</p>
             <p className="text-sm">Phone: (+234) 081 8160 0465</p>
           </div>
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4">Follow Us</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-2xl hover:text-purple-300">
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
                 <FaYoutube />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mt-8 pt-8 border-t border-purple-800 text-center">
           <p className="text-sm">&copy; 2025 Love and Lactation. All rights reserved.</p>

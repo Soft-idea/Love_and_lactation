@@ -38,8 +38,8 @@ const Sponsors: React.FC = () => {
         >
           <h2 className="text-3xl font-bold text-gray-800 mb-4">Software Initiators</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            The Love & Lactation system is built by the NYSC ICT CDS group of 2025, in order to guide 
-            lactating mothers navigate the demands of infant breastfeeding.
+            The Love & Lactation system is built by the NYSC ICT CDS group in order to guide breastfeeding 
+            mothers during health challenges.
           </p>
         </motion.div>
 
